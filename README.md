@@ -4,6 +4,12 @@
 # Note
 ```
 Ambil dulu session atau scan
+
+$ git clone https://github.com/lordlightness/Qr
+$ cd Qr
+$ node index
+
+Scan dulu trus ambil sessionnya
 ```
 
 
