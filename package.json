@@ -10,7 +10,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "node . --autocleartmp --db 'mongodb+srv://Della:lylia9090@cloudclus1.dlgwh.mongodb.net/cloudclus1?retryWrites=true&w=majority'",
+        "start": "node index.js",
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
         "db": "node . --autocleartmp --restrict --db 'mongodb+srv://Della:lylia9090@cloudclus1.dlgwh.mongodb.net/cloudclus1?retryWrites=true&w=majority'"
     },
