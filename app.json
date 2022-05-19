@@ -45,6 +45,16 @@
             "description": "Moderator Bot",
             "required": false,
             "value": ""
+        },
+        "THUMB_MENU": {
+            "description": "Nomer Owner",
+            "required": true,
+            "value": "https://telegra.ph/file/baea4ead668adebdc5073.jpg"
+        },
+        "DONASI": {
+            "description": "Nomer Owner",
+            "required": true,
+            "value": "https://saweria.co/itsmedell"
         }
 },
   "buildpacks": [
