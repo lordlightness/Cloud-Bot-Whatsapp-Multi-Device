@@ -4,6 +4,8 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
+global.donasi = process.env.DONASI
+global.thumbmenu = process.env.THUMB_MENU
 global.sig = process.env.LINK_IG
 global.sgh = process.env.LINK_GITHUB
 global.sgc = process.env.LINK_GROUP
