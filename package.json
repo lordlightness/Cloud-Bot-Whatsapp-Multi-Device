@@ -10,7 +10,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "npx pm2 start npm -- run db && npx pm2 monit",
+        "start": "npx pm2 start npm -- run db && npx pm2 logs",
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
         "db": "node . --autocleartmp --restrict --db 'mongodb+srv://Della:lylia9090@cloudclus1.dlgwh.mongodb.net/cloudclus1?retryWrites=true&w=majority'"
     },
